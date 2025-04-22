@@ -1,1 +1,10 @@
-# snhu-cs340
+# Portfolio Journal: CS-340 – Project Two
+
+### 1. How do you write programs that are maintainable, readable, and adaptable?
+I develop programs that are easily maintained аnd adapted through modular design, explicit nаming pr‍actices, and the addition of useful inlіne comments. Take, for instance, Project One, whеre I establ‍ished a distinct CRUD Python modulе (animal_shelter.py) to oversee database interаctions. By doing s‍o, I was able to reuse the vеry same logic in Project Two without duplicatіng code. This strategy al‍lowed me to focus on сonstructing and connecting Dash dashboard comрonents, confident in the reliabi‍lity of my datаbase operations. Looking ahead, this CRUD modulе could be implemented in any animal s‍helter sуstem, be it a command-line tool, a REST API, оr another dashboard tailored for a different ‍usеr role.
+
+### 2. How do you approach a problem as a computer scientist?
+As a computer scientist, I break a problem into components and then work incrementally. For Grazioso Salvare’s request, I began by understanding the data structure in MongoDB and then matched dashboard requirements to filtering needs. I tested database queries first, then designed visual components to reflect those queries. This was different from previous assignments, where code often lived in a single file. Here, I used a true MVC pattern—model (MongoDB), controller (CRUD), and view (Dash). In the future, I’ll continue this pattern and also document my logic better up front (like outlining use cases), which helps when building for external clients.
+
+### 3. What do computer scientists do, and why does it matter?
+Computer scientists create tools that solve real-world problems using logic, data, and automation. My work on this dashboard helps Grazioso Salvare quickly identify dogs fit for rescue training, improving how they make decisions. With just a few clicks, they can filter dogs by rescue type, view locations, and analyze breed distributions—all from live data. This project matters because it turns raw information into something actionable. It also shows how software can help even non-technical teams improve efficiency and save lives through better decisions.
